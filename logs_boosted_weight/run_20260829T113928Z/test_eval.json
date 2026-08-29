@@ -1,0 +1,11 @@
+{
+  "test_auc": 0.7533373391417555,
+  "threshold_85pct_val_sens": 0.4260736405849457,
+  "test_sensitivity_at_threshold": 0.8596638655462185,
+  "test_specificity_at_threshold": 0.4560112162635822,
+  "test_sensitivity_at_0.5": 0.7773109243697479,
+  "test_specificity_at_0.5": 0.5937609533824045,
+  "n": 5233,
+  "n_positive": 2380,
+  "pos_weight_used": 2.066680908203125
+}

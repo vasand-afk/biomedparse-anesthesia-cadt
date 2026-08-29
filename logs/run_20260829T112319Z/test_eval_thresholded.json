@@ -1,0 +1,9 @@
+{
+  "threshold": 0.2694,
+  "threshold_selection": "val-only sweep targeting 85% sensitivity, applied once to test",
+  "test_auc": 0.7517928201774927,
+  "test_sensitivity": 0.8647058823529412,
+  "test_specificity": 0.4395373291272345,
+  "n": 5233,
+  "n_positive": 2380
+}

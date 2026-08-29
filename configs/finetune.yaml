@@ -1,0 +1,10 @@
+seed: 42
+batch_size: 64
+num_workers: 4
+epochs: 40
+lr: 1.0e-3
+weight_decay: 1.0e-4
+early_stop_patience: 8
+# batch_size can be generous here -- unlike the multi-slice image sequences
+# elsewhere in this portfolio, each sample is a single (1, 10000) 1D
+# waveform window, orders of magnitude smaller in memory per sample.
