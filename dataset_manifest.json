@@ -1,0 +1,128 @@
+{
+  "schema": "portfolio-dataset-manifest/1",
+  "generated_utc": "2026-08-29T17:56:58+00:00",
+  "generated_on": "02497f91c637",
+  "root": "/workspace/biomedparse-anesthesia-cadt/data",
+  "n_files": 2966,
+  "total_bytes": 129989067,
+  "total_human": "124.0MB",
+  "listing_sha256": "5fc6704619e2023c922121a101fa731ccfa6bb39a2cb59f7e46cc281c42c7b86",
+  "by_extension": {
+    ".npz": {
+      "count": 2966,
+      "bytes": 129989067
+    }
+  },
+  "top_level": [
+    "processed"
+  ],
+  "dataset_name": "VitalDB (intraoperative arterial waveform + Solar8000 MAP), preprocessed case windows",
+  "source_url": "https://vitaldb.net/",
+  "access_route": "open",
+  "license": "",
+  "redistributable": "unknown",
+  "notes": "Project README states free VitalDB API access with no credentialing gate, but does not state a licence, and no licence file was downloaded. Only data/processed exists (per-case derived windows); the raw VitalDB pull was not retained on this pod.",
+  "deep_sample": [
+    {
+      "path": "processed/cases/1.npz",
+      "size": 83779,
+      "sha256": "b2cb219bef3aca5e97dcf7347abf62b0cbd46ad102ef6d7e29ff19b1f10c1b4e"
+    },
+    {
+      "path": "processed/cases/1275.npz",
+      "size": 68384,
+      "sha256": "fbb9dca4781fdfd627f4c95fb7b8ef40493babca78ff6450dd5c4287c3819fc7"
+    },
+    {
+      "path": "processed/cases/1556.npz",
+      "size": 52691,
+      "sha256": "d4a5c7354dc550b153bb0b646362cdf88e379a28ff36661c1810733730cb6e2e"
+    },
+    {
+      "path": "processed/cases/1848.npz",
+      "size": 28327,
+      "sha256": "9b0869d00a7a68ca862f2adec48e15fab0ca06b09d980026b7e53c7f42633eec"
+    },
+    {
+      "path": "processed/cases/2148.npz",
+      "size": 49390,
+      "sha256": "d1edd18acf35d11cdb2f0a83eb3a232327bddcd6c0cbbd7f1f3cdb158afcc7b0"
+    },
+    {
+      "path": "processed/cases/2432.npz",
+      "size": 74449,
+      "sha256": "065fe7d62a9e5d5021ca7fb90f43610b231f7d57d820ee80ae885f8ac6e0f21a"
+    },
+    {
+      "path": "processed/cases/2741.npz",
+      "size": 63532,
+      "sha256": "d458b13fa282393edc9a2f89790ae6ded53f00f0fd64bf53c3635eb03c99a9aa"
+    },
+    {
+      "path": "processed/cases/3042.npz",
+      "size": 12355,
+      "sha256": "f5b6157a4bb0b32758e8f48c8b4d96cc2844f424b9a5e5a2a89b65025102382f"
+    },
+    {
+      "path": "processed/cases/3311.npz",
+      "size": 125556,
+      "sha256": "3829972527801bdb868ee5801147796fbfe214829161702bdbba892ca6bec213"
+    },
+    {
+      "path": "processed/cases/3576.npz",
+      "size": 66758,
+      "sha256": "d42d74b16b8632d6512652650a86fc635b63aed82f93c6b7adedcaf9333dfecf"
+    },
+    {
+      "path": "processed/cases/3858.npz",
+      "size": 35951,
+      "sha256": "853a884adff3cbaf77d1c93d51f6990a50bbf6f05c21afe7b41384ea722eb26e"
+    },
+    {
+      "path": "processed/cases/4166.npz",
+      "size": 51723,
+      "sha256": "c4f323a9dcbbc76bf9348b5b996929eebc0ad87599bbbfc1c58ad8773406a728"
+    },
+    {
+      "path": "processed/cases/4456.npz",
+      "size": 21168,
+      "sha256": "0ed2cfa78e5132c381c726f4c550682e80c00058ba1f1bc12e6c739bb8d0d70b"
+    },
+    {
+      "path": "processed/cases/476.npz",
+      "size": 32756,
+      "sha256": "ad1bd578ef626fdbd7e4ca8824876211fe274cb8c1af981129946c5972054231"
+    },
+    {
+      "path": "processed/cases/5036.npz",
+      "size": 36640,
+      "sha256": "2b68c856b46e1abff68e4ca1975aed9410b5e1af6b75a679eb617ad45e55fb6f"
+    },
+    {
+      "path": "processed/cases/5327.npz",
+      "size": 13093,
+      "sha256": "31a3de1a40c3ef0c7064efafc665c5a4f976a0354c9ce3ee11119dae41a6f9be"
+    },
+    {
+      "path": "processed/cases/561.npz",
+      "size": 12390,
+      "sha256": "47ba58f5e30e592504aca5146f5d5b1a6a2b502a244c1883d5780adf2d9a69d5"
+    },
+    {
+      "path": "processed/cases/590.npz",
+      "size": 50605,
+      "sha256": "f35d4916e73039587ac7ca961e3082b0afff238ad4378de860cd6599e22ed408"
+    },
+    {
+      "path": "processed/cases/6182.npz",
+      "size": 34503,
+      "sha256": "23dc506176032d60a1297e70c1c484c4c33c798080cf7371beac7f66addc68ba"
+    },
+    {
+      "path": "processed/cases/699.npz",
+      "size": 44809,
+      "sha256": "2786b610229920b750f97530f5e7212a13420bce48bc86c500edeb26f2ac7f7a"
+    }
+  ],
+  "deep_sample_n": 20
+}

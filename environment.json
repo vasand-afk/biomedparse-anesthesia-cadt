@@ -1,0 +1,28 @@
+{
+  "project": "biomedparse-anesthesia-cadt (pod 194.68.245.56:22108, /workspace/trauma_venv)",
+  "generated_utc": "2026-08-29T18:22:56+00:00",
+  "source": {
+    "ssh": "-p 22108 root@194.68.245.56",
+    "python": "/workspace/trauma_venv/bin/python"
+  },
+  "interpreter": {
+    "python_version": "3.12.3",
+    "python_executable": "/workspace/trauma_venv/bin/python",
+    "platform": "Linux-6.8.0-134-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "torch": "2.8.0+cu128",
+    "torch_cuda": "12.8",
+    "cuda_available": true,
+    "gpu": "NVIDIA RTX A6000",
+    "numpy": "2.1.2",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0",
+    "pandas": "3.0.5",
+    "pydicom": "3.0.2",
+    "ultralytics": "8.4.133"
+  },
+  "system_dependencies": {
+    "gpu_driver": "NVIDIA RTX A6000, 580.159.03"
+  },
+  "n_packages": 167
+}
